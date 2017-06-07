@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <p>
+        <h1> Tell us what you do Today.? </h1>
+      </p>
+      <p title="Work to do Today"> Today's Plan</p>
+
+    </header>
+    <form action="">
+      <label for="name"></label>
+      <input type="text" id="name" placeholder="Add Work in List...">
+    </form>
+
+    <br>
+
+    <input type="button" id="submit" value="Add Work" onclick="addWork()">
+    <input type="button" id="submit" onclick="delWork()" value="Reset">
+
+    <p>Work To Do</p>
+    <div class="output">
+      <ul id="list">
+
+      </ul>
+
+    </div>
+  </div>
+</body>
+
+<script src="main.js">
+
+</script>
+
+</html>
